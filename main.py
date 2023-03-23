@@ -4,7 +4,11 @@ import pandas as pd
 st.title("Stability Window RT for Client")
 st.text('This is a test to show a RT stability Window')
 st.markdown('## test in markdown')
+st.sidebar.title('Side bar creation')
 uploaded_file = st.file_uploader('Ubload a file:')
+st.sidebar.button('Run')
+text = st.text_input('text here')
+st.text(text)
 
 if uploaded_file:
     st.header('Raw Data')
