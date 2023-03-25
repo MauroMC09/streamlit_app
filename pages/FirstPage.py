@@ -12,13 +12,6 @@ import os
 import tempfile
 from pathlib import PurePath
 
-sharepoint_email = "andres.moreno@ingeo-data.com"
-sharepoint_password = "*Urapanes09*"
-sharepoint_url_site = "https://ingeodata.sharepoint.com/sites/Developersteam"
-sharepoint_site_name = "Developersteam"
-sharepoint_doc_library = "Documentos compartidos"
-folder_name = "General"
-file_name = "file_test.csv"
 
 # sharepoint_email = st.secrets["sharepoint_email"]
 # sharepoint_password = st.secrets["sharepoint_password"]
